@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "continuous-integration": {
@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "continuous-integration"
+    }
+  },
+  "defaultProject": "continuous-integration",
+  "cli": {
+    "analytics": "7089907f-9ff2-4b65-8241-03e8e0d5ed8e"
+  }
 }
